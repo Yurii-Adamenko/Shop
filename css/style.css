@@ -155,4 +155,71 @@ body {
   }
 }
 
+.sidebar {
+  border-right: 1px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-size: 21px;
+  line-height: 40px;
+}
+
+.sidebar-form a {
+  display: block;
+  margin: 5px 0 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.sidebar-form a:hover {
+  color: #0056b3;
+}
+
+.sidebar-form__btn {
+  height: 50px;
+  border-color: #fff;
+  border-radius: 0;
+  background-color: #2c71b8;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+.sidebar-form__btn:hover {
+  background-color: #fff;
+  color: #2c71b8;
+}
+
+.sidebar-form-group {
+  margin-bottom: 40px;
+}
+
+.sidebar-form-group legend {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.sidebar-form-group__check {
+  position: relative;
+}
+
+.sidebar-form-group__check input[type=checkbox] {
+  display: none;
+}
+
+.sidebar-form-group__check label:after {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #fff;
+  content: '';
+}
+
+.sidebar-form-group__check input[type=checkbox]:checked + label:after {
+  background-color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
