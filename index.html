@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Shop</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -99,102 +99,336 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-3 p-4 sidebar">
-
-        <form class="sidebar-form">
-          <fieldset class="form-group sidebar-form-group">
-            <legend>Device type</legend>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option1" id="option1" checked>
-              <label class="form-check-label" for="option1">
-                Laptop
-              </label>
-            </div>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option2" id="option2">
-              <label class="form-check-label" for="option2">
-                Tablet
-              </label>
-            </div>
-          </fieldset>
-
-          <fieldset class="form-group sidebar-form-group">
-            <legend>Color</legend>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option3" id="option3">
-              <label class="form-check-label" for="option3">
-                Black
-              </label>
-            </div>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option4" id="option4">
-              <label class="form-check-label" for="option4">
-                Red
-              </label>
-            </div>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option5" id="option5" checked>
-              <label class="form-check-label" for="option5">
-                Green
-              </label>
-            </div>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option6" id="option6">
-              <label class="form-check-label" for="option6">
-                Blue
-              </label>
-            </div>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option7" id="option7">
-              <label class="form-check-label" for="option7">
-                Orange
-              </label>
-            </div>
-          </fieldset>
-
-          <fieldset class="form-group mb-0 sidebar-form-group">
-            <legend>RAM</legend>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option8" id="option8">
-              <label class="form-check-label" for="option8">
-                1GB
-              </label>
-            </div>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option9" id="option9">
-              <label class="form-check-label" for="option9">
-                2GB
-              </label>
-            </div>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option10" id="option10" checked>
-              <label class="form-check-label" for="option10">
-                4GB
-              </label>
-            </div>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option11" id="option11">
-              <label class="form-check-label" for="option11">
-                6GB
-              </label>
-            </div>
-            <div class="form-check sidebar-form-group__check">
-              <input class="form-check-input" type="checkbox" value="option12" id="option12">
-              <label class="form-check-label" for="option12">
-                8GB
-              </label>
-            </div>
-          </fieldset>
-          <a href="#">Show more options...</a>
-          <button type="button" class="btn sidebar-form__btn btn-primary btn-block">Submit</button>
-        </form>
-
+      <div class="col-3 sidebar">
+        <div class="sidebar-wrapper container-fluid">
+          <form class="sidebar-form">
+           <fieldset class="form-group sidebar-form-group">
+             <legend>Device type</legend>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option1" id="option1" checked>
+               <label class="form-check-label" for="option1">
+                 Laptop
+               </label>
+             </div>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option2" id="option2">
+               <label class="form-check-label" for="option2">
+                 Tablet
+               </label>
+             </div>
+           </fieldset>
+         
+           <fieldset class="form-group sidebar-form-group">
+             <legend>Color</legend>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option3" id="option3">
+               <label class="form-check-label" for="option3">
+                 Black
+               </label>
+             </div>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option4" id="option4">
+               <label class="form-check-label" for="option4">
+                 Red
+               </label>
+             </div>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option5" id="option5" checked>
+               <label class="form-check-label" for="option5">
+                 Green
+               </label>
+             </div>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option6" id="option6">
+               <label class="form-check-label" for="option6">
+                 Blue
+               </label>
+             </div>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option7" id="option7">
+               <label class="form-check-label" for="option7">
+                 Orange
+               </label>
+             </div>
+           </fieldset>
+         
+           <fieldset class="form-group mb-0 sidebar-form-group">
+             <legend>RAM</legend>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option8" id="option8">
+               <label class="form-check-label" for="option8">
+                 1GB
+               </label>
+             </div>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option9" id="option9">
+               <label class="form-check-label" for="option9">
+                 2GB
+               </label>
+             </div>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option10" id="option10" checked>
+               <label class="form-check-label" for="option10">
+                 4GB
+               </label>
+             </div>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option11" id="option11">
+               <label class="form-check-label" for="option11">
+                 6GB
+               </label>
+             </div>
+             <div class="form-check sidebar-form-group__check">
+               <input class="form-check-input" type="checkbox" value="option12" id="option12">
+               <label class="form-check-label" for="option12">
+                 8GB
+               </label>
+             </div>
+           </fieldset>
+           <a href="#">Show more options...</a>
+           <button type="button" class="btn sidebar-form__btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
       </div>
       <div class="col-9 main">
-        
+          
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home page</a></li>
+            <li class="breadcrumb-item"><a href="#">Products</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Laptops and Tablets</li>
+          </ol>
+        </nav>
+
+        <div class="row">
+          <div class="col-8">
+            <h1>Laptops and Tablets</h1>
+          </div>
+          <div class="col-4">
+            <div class="dropdown dropdown-filter">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">sort by price
+              </button>
+              <div class="dropdown-menu dropdown-filter-menu p-0" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item active" href="#">sort by price</a>
+                <a class="dropdown-item" href="#">sort by name</a>
+                <a class="dropdown-item" href="#">sort by date</a>
+                <a class="dropdown-item" href="#">sort by popularity</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row main-content">
+          <div class="col-4 main-content-item">
+           <div class="main-content-item-wrapper">
+              <div class="main-content-item__image">
+                <button type="button" class="btn btn-outline-primary main-content-item__image__arrows">
+                  <i class="fas fa-expand-arrows-alt"></i></button>
+                <button type="button" class="btn btn-outline-primary main-content-item__image__heart">
+                  <i class="fas fa-heart"></i></button>
+                <img src="img/icon-17.png" alt="">
+              </div>
+              <div class="main-content-item__text">
+                <h3 class="main-content-item__text__title">#1 Device Name</h3>
+                <div class="main-content-item__text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Type: </span>Laptop</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Screen size: </span>7 inches</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Ram: </span>1GB</div>
+                <div class="main-content-item__text__price">$599 <sup>25</sup></div>
+                <button type="button" class="main-content-item__text__btn-details btn btn-primary btn-lg">More details</button>
+                <button type="button" class="main-content-item__text__btn-add btn btn-primary btn-lg">Add to cart <i class="fas fa-shopping-cart"></i></button>
+              </div>
+           </div>
+          </div>
+          <div class="col-4 main-content-item">
+           <div class="main-content-item-wrapper">
+              <div class="main-content-item__image">
+                <button type="button" class="btn btn-outline-primary main-content-item__image__arrows">
+                  <i class="fas fa-expand-arrows-alt"></i></button>
+                <button type="button" class="btn btn-outline-primary main-content-item__image__heart">
+                  <i class="fas fa-heart"></i></button>
+                <img src="img/icon-9.png" alt="">
+              </div> 
+              <div class="main-content-item__text">
+                <h3 class="main-content-item__text__title">#2 Device Name</h3>
+                <div class="main-content-item__text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Type: </span>Laptop</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Screen size: </span>7 inches</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Ram: </span>1GB</div>
+                <div class="main-content-item__text__price">$1250 <sup>99</sup></div>
+                <button type="button" class="main-content-item__text__btn-details btn btn-primary btn-lg">More details</button>
+                <button type="button" class="main-content-item__text__btn-add btn btn-primary btn-lg">Add to cart <i class="fas fa-shopping-cart"></i></button>
+              </div>
+           </div>
+          </div>
+          <div class="col-4 main-content-item">
+           <div class="main-content-item-wrapper">
+              <div class="main-content-item__image">
+                <button type="button" class="btn btn-outline-primary main-content-item__image__arrows">
+                  <i class="fas fa-expand-arrows-alt"></i></button>
+                <button type="button" class="btn btn-outline-primary main-content-item__image__heart">
+                  <i class="fas fa-heart"></i></button>
+                <img src="img/icon-10.png" alt="">
+              </div>
+              <div class="main-content-item__text">
+                <h3 class="main-content-item__text__title">#3 Device Name</h3>
+                <div class="main-content-item__text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Type: </span>Laptop</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Screen size: </span>7 inches</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Ram: </span>1GB</div>
+                <div class="main-content-item__text__price">$399 <sup>50</sup></div>
+                <button type="button" class="main-content-item__text__btn-details btn btn-primary btn-lg">More details</button>
+                <button type="button" class="main-content-item__text__btn-add btn btn-primary btn-lg">Add to cart <i class="fas fa-shopping-cart"></i></button>
+              </div>
+           </div>
+          </div>
+          <div class="col-4 main-content-item">
+           <div class="main-content-item-wrapper">
+              <div class="main-content-item__image">
+                <button type="button" class="btn btn-outline-primary main-content-item__image__arrows">
+                  <i class="fas fa-expand-arrows-alt"></i></button>
+                <button type="button" class="btn btn-outline-primary main-content-item__image__heart">
+                  <i class="fas fa-heart"></i></button>
+                <img src="img/icon-16.png" alt="">
+              </div>
+              <div class="main-content-item__text">
+                <h3 class="main-content-item__text__title">#1 Device Name</h3>
+                <div class="main-content-item__text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Type: </span>Laptop</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Screen size: </span>7 inches</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Ram: </span>1GB</div>
+                <div class="main-content-item__text__price">$599 <sup>25</sup></div>
+                <button type="button" class="main-content-item__text__btn-details btn btn-primary btn-lg">More details</button>
+                <button type="button" class="main-content-item__text__btn-add btn btn-primary btn-lg">Add to cart <i class="fas fa-shopping-cart"></i></button>
+              </div>
+           </div>
+          </div>
+          <div class="col-4 main-content-item">
+           <div class="main-content-item-wrapper">
+              <div class="main-content-item__image">
+                <button type="button" class="btn btn-outline-primary main-content-item__image__arrows">
+                  <i class="fas fa-expand-arrows-alt"></i></button>
+                <button type="button" class="btn btn-outline-primary main-content-item__image__heart">
+                  <i class="fas fa-heart"></i></button>
+                <img src="img/icon-14.png" alt="">
+              </div> 
+              <div class="main-content-item__text">
+                <h3 class="main-content-item__text__title">#2 Device Name</h3>
+                <div class="main-content-item__text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Type: </span>Laptop</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Screen size: </span>7 inches</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Ram: </span>1GB</div>
+                <div class="main-content-item__text__price">$1250 <sup>99</sup></div>
+                <button type="button" class="main-content-item__text__btn-details btn btn-primary btn-lg">More details</button>
+                <button type="button" class="main-content-item__text__btn-add btn btn-primary btn-lg">Add to cart <i class="fas fa-shopping-cart"></i></button>
+              </div>
+           </div>
+          </div>
+          <div class="col-4 main-content-item">
+           <div class="main-content-item-wrapper">
+              <div class="main-content-item__image">
+                <button type="button" class="btn btn-outline-primary main-content-item__image__arrows">
+                  <i class="fas fa-expand-arrows-alt"></i></button>
+                <button type="button" class="btn btn-outline-primary main-content-item__image__heart">
+                  <i class="fas fa-heart"></i></button>
+                <img src="img/icon-12.png" alt="">
+              </div>
+              <div class="main-content-item__text">
+                <h3 class="main-content-item__text__title">#3 Device Name</h3>
+                <div class="main-content-item__text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Type: </span>Laptop</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Screen size: </span>7 inches</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Ram: </span>1GB</div>
+                <div class="main-content-item__text__price">$399 <sup>50</sup></div>
+                <button type="button" class="main-content-item__text__btn-details btn btn-primary btn-lg">More details</button>
+                <button type="button" class="main-content-item__text__btn-add btn btn-primary btn-lg">Add to cart <i class="fas fa-shopping-cart"></i></button>
+              </div>
+           </div>
+          </div>
+          <div class="col-4 main-content-item">
+           <div class="main-content-item-wrapper">
+              <div class="main-content-item__image">
+                <button type="button" class="btn btn-outline-primary main-content-item__image__arrows">
+                  <i class="fas fa-expand-arrows-alt"></i></button>
+                <button type="button" class="btn btn-outline-primary main-content-item__image__heart">
+                  <i class="fas fa-heart"></i></button>
+                <img src="img/icon-17.png" alt="">
+              </div>
+              <div class="main-content-item__text">
+                <h3 class="main-content-item__text__title">#1 Device Name</h3>
+                <div class="main-content-item__text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Type: </span>Laptop</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Screen size: </span>7 inches</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Ram: </span>1GB</div>
+                <div class="main-content-item__text__price">$599 <sup>25</sup></div>
+                <button type="button" class="main-content-item__text__btn-details btn btn-primary btn-lg">More details</button>
+                <button type="button" class="main-content-item__text__btn-add btn btn-primary btn-lg">Add to cart <i class="fas fa-shopping-cart"></i></button>
+              </div>
+           </div>
+          </div>
+          <div class="col-4 main-content-item">
+           <div class="main-content-item-wrapper">
+              <div class="main-content-item__image">
+                <button type="button" class="btn btn-outline-primary main-content-item__image__arrows">
+                  <i class="fas fa-expand-arrows-alt"></i></button>
+                <button type="button" class="btn btn-outline-primary main-content-item__image__heart">
+                  <i class="fas fa-heart"></i></button>
+                <img src="img/icon-9.png" alt="">
+              </div> 
+              <div class="main-content-item__text">
+                <h3 class="main-content-item__text__title">#2 Device Name</h3>
+                <div class="main-content-item__text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Type: </span>Laptop</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Screen size: </span>7 inches</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Ram: </span>1GB</div>
+                <div class="main-content-item__text__price">$1250 <sup>99</sup></div>
+                <button type="button" class="main-content-item__text__btn-details btn btn-primary btn-lg">More details</button>
+                <button type="button" class="main-content-item__text__btn-add btn btn-primary btn-lg">Add to cart <i class="fas fa-shopping-cart"></i></button>
+              </div>
+           </div>
+          </div>
+          <div class="col-4 main-content-item">
+           <div class="main-content-item-wrapper">
+              <div class="main-content-item__image">
+                <button type="button" class="btn btn-outline-primary main-content-item__image__arrows">
+                  <i class="fas fa-expand-arrows-alt"></i></button>
+                <button type="button" class="btn btn-outline-primary main-content-item__image__heart">
+                  <i class="fas fa-heart"></i></button>
+                <img src="img/icon-10.png" alt="">
+              </div>
+              <div class="main-content-item__text">
+                <h3 class="main-content-item__text__title">#3 Device Name</h3>
+                <div class="main-content-item__text__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Type: </span>Laptop</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Screen size: </span>7 inches</div>
+                <div class="main-content-item__text__type"><span class="main-content-item__text__type__title">Ram: </span>1GB</div>
+                <div class="main-content-item__text__price">$399 <sup>50</sup></div>
+                <button type="button" class="main-content-item__text__btn-details btn btn-primary btn-lg">More details</button>
+                <button type="button" class="main-content-item__text__btn-add btn btn-primary btn-lg">Add to cart <i class="fas fa-shopping-cart"></i></button>
+              </div>
+           </div>
+          </div>
+        </div>
+
+        <div class="row main-content-navigation">
+          <div class="col main-content-navigation-load">
+            <a href="#" class="">Load more...</a>
+          </div>       
+        </div>
+
       </div>
     </div>
   </div>
+
+  <footer class="footer-page">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <span class="footer-page-text">&copy; Copyright 2017</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
  

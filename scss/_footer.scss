@@ -1,0 +1,11 @@
+.footer-page {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  &-text {
+    color: $main-color;
+    font-size: 21px;
+  }
+}

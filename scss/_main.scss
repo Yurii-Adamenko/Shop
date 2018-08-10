@@ -1,0 +1,145 @@
+.breadcrumb {
+  background-color: transparent;
+  &-item {
+    font-size: 14px;
+    opacity: 0.5;
+    &+ .breadcrumb-item::before {
+      color: $white-color;
+      content: "#{$breadcrumb-divider}";
+    }
+    & a {
+      color: $white-color;
+    }
+    &.active {
+      color: $white-color;
+      text-decoration: underline;
+    }
+  }
+}
+.dropdown-filter {
+
+  & .dropdown-toggle {
+    @extend .main-decor;
+    width: 100%;
+    box-shadow: none;
+    text-align: left;
+    font-weight: 300;
+    &:hover {
+      background-color: $white-color;
+      color: $main-color;
+    }
+    &::after {
+      position: absolute;
+      top: 16px;
+      right: 14px;
+    }
+  }
+  &-menu {
+    width: 100%;
+    border: 1px solid $white-color;
+    & .dropdown-item {
+      padding-right: 0;
+      padding-left: 12px;
+      font-weight: 300;
+      &.active {
+        background-color: $white-color;
+        color: $main-color;
+      }
+    }
+  }
+}
+.show>.btn-secondary.dropdown-toggle {
+  @extend .main-decor;
+  &:focus {
+    box-shadow: none;
+  }
+}
+.main-content {
+  margin-top: 30px;
+  &-item {
+    margin-bottom: 30px;
+    &-wrapper {
+      border: 1px solid $white-color;
+    }
+    &__image {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      height: 180px;
+      background-color: rgba(255, 255, 255, 0.75);
+      & button {
+        padding: 0px;
+        width: 30px;
+        height: 30px;
+        border-color: $main-color;
+        border-radius: 0;
+        color: $main-color;
+        text-align: center;
+        &:hover {
+          background-color: $main-color;
+        }
+      }
+      &__arrows {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      &__heart {
+        position: absolute;
+        top: 50px;
+        right: 10px;
+      }
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px;
+      background-color: rgba(44, 113, 182, 0.7);
+      font-size: 16px;
+      &__title {
+        font-size: 24px;
+      }
+      &__type {
+        margin-top: 5px;
+        &__title {
+          text-transform: uppercase;
+          font-weight: 500;
+        }
+      }
+      &__price {
+        align-self: center;
+        margin: 15px 0;
+        font-weight: bold;
+        font-size: 48px;
+      }
+      &__btn-details, &__btn-add {
+        @extend .main-decor;
+        margin: 7.5px;
+        width: calc(100% - 15px);
+        text-transform: uppercase;
+        &:hover {
+          background-color: $white-color;
+          color: $main-color;
+        }
+      }
+      &__btn-add {
+        background-color: rgba(137, 185, 234, 0.5);
+        & i {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  &-navigation-load {
+    margin-bottom: 80px;
+    text-align: center;
+    & a{
+      color: $white-color;
+      font-size: 36px;
+      line-height: 40px;
+    }
+  } 
+}

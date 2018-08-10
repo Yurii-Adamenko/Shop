@@ -2,6 +2,13 @@
 
 body {
   background: #2c71b8 url(../img/patt.png) repeat top center fixed;
+  color: $white-color;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
+}
+.main-decor {
+  border-color: $white-color;
+  border-radius: 0;
+  background-color: $main-color;
+  color: $white-color;
 }

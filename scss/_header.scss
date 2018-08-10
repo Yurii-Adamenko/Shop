@@ -14,27 +14,25 @@
       width: 160px;
       border: none;
       background-color: transparent;
+      font-weight: 300;
       &:focus {
         box-shadow: none;
       }
       &::-webkit-input-placeholder { 
-      color: $main-color; 
+      color: $main-color;
       }
     }
     & .btn {
+      @extend .main-decor;
       margin: 5px;
       padding: 0;
       width: 30px;
       height: 30px;
-      border-color: $main-color;
-      border-radius: 0;
-      background-color: $main-color;
-      color: #fff;
       & i {
         font-size: 14px;
       }
       &:hover{
-        background-color: #fff;
+        background-color: $white-color;
         color: $main-color;
       }
       &:focus {
@@ -43,7 +41,7 @@
     }
   }
   &-carousel {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid $white-color;
     background-color: rgba(0, 0, 0, 0.3);
   }
 }
@@ -65,7 +63,7 @@
   white-space: nowrap;
 }
 .navbar-light .navbar-nav .show>.nav-link {
-  color: #fff;
+  color: $white-color;
 }
 .dropdown.show {
   background-color: $main-color;
@@ -78,22 +76,19 @@
   background-color: $main-color;
 }
 .dropdown-item {
-  color: #fff;
+  color: $white-color;
   &:hover {
     color: $main-color;
   }
 }
 .btn-shop {
+  @extend .main-decor;
   height: 40px;
-  border-color: #fff;
-  border-radius: 0;
-  background-color: #fff;
-  color: $main-color;
   font-size: 19px;
   &:hover {
-    border-color: #fff;
+    border-color: $white-color;
     background-color: $main-color;
-    color: #fff;
+    color: $white-color;
   }
 }
 .carousel-caption h3 {
