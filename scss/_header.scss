@@ -1,0 +1,126 @@
+.header {
+  &-navbar {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background-color: rgba(255, 255, 255, 0.8);
+  }
+  &-form-search {
+    margin: 0 30px;
+    height: 40px;
+    border: 1px solid $main-color;
+    & .form-control {
+      @extend .text;
+      padding-bottom: 8px;
+      width: 160px;
+      border: none;
+      background-color: transparent;
+      &:focus {
+        box-shadow: none;
+      }
+      &::-webkit-input-placeholder { 
+      color: $main-color; 
+      }
+    }
+    & .btn {
+      margin: 5px;
+      padding: 0;
+      width: 30px;
+      height: 30px;
+      border-color: $main-color;
+      border-radius: 0;
+      background-color: $main-color;
+      color: #fff;
+      & i {
+        font-size: 14px;
+      }
+      &:hover{
+        background-color: #fff;
+        color: $main-color;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+  &-carousel {
+    border-bottom: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+.nav-link {
+  @extend .text;
+  border-right: 1px solid $main-color;
+}
+.text {
+  color: $main-color;
+  font-size: 21px;
+}
+.nav-item:first-child {
+  border-left: 1px solid $main-color;
+}
+.navbar-light .navbar-nav .nav-link {
+  padding-right: 25px;
+  padding-left: 25px;
+  color: $main-color;
+  white-space: nowrap;
+}
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #fff;
+}
+.dropdown.show {
+  background-color: $main-color;
+}
+.dropdown-menu {
+  left: -1px;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background-color: $main-color;
+}
+.dropdown-item {
+  color: #fff;
+  &:hover {
+    color: $main-color;
+  }
+}
+.btn-shop {
+  height: 40px;
+  border-color: #fff;
+  border-radius: 0;
+  background-color: #fff;
+  color: $main-color;
+  font-size: 19px;
+  &:hover {
+    border-color: #fff;
+    background-color: $main-color;
+    color: #fff;
+  }
+}
+.carousel-caption h3 {
+  font-size: 100px;
+}
+@media (max-width: 1199px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .nav-link {
+    border: 0;
+  }
+  .nav-item:first-child {
+    border: 0;
+  }
+  .header-form-search {
+    display: inline-flex;
+    margin-left: 0;
+    width: calc(100% - 100px);
+    & .form-control {
+      width: calc(100% - 40px);
+    }
+  }
+  .btn-shop {
+    margin-bottom: 6px;
+  }
+}

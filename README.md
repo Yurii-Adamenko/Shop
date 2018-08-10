@@ -1,1 +1,1 @@
-Shop on Bootstrap 4 with proprocessor SCSS
+Shop on Bootstrap 4 with preprocessor SCSS
