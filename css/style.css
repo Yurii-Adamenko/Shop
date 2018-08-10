@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300");
 body {
   background: #2c71b8 url(../img/patt.png) repeat top center fixed;
   color: #fff;
@@ -17,6 +16,10 @@ body {
   padding-top: 22px;
   padding-bottom: 22px;
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header-navbar-nav-link {
+  border-right: 1px solid #2c71b8;
 }
 
 .header-form-search {
@@ -68,11 +71,7 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.nav-link {
-  border-right: 1px solid #2c71b8;
-}
-
-.text, .header-form-search .form-control, .nav-link {
+.text, .header-navbar-nav-link, .header-form-search .form-control {
   color: #2c71b8;
   font-size: 21px;
 }
@@ -405,6 +404,23 @@ body {
   color: #fff;
   font-size: 36px;
   line-height: 40px;
+}
+
+@media (max-width: 1199px) {
+  .main-content-item__text__price {
+    font-size: 36px;
+  }
+  .main-content-item__text__btn-details, .main-content-item__text__btn-add {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .sidebar-wrapper {
+    border-top: 1px solid #fff;
+    border-right: 0;
+    background-color: transparent;
+  }
 }
 
 .footer-page {

@@ -1,8 +1,14 @@
 .header {
   &-navbar {
-  padding-top: 22px;
-  padding-bottom: 22px;
-  background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: rgba(255, 255, 255, 0.8);
+    &-nav {
+      &-link {
+        @extend .text;
+        border-right: 1px solid $main-color;
+      }
+    }
   }
   &-form-search {
     margin: 0 30px;
@@ -44,10 +50,6 @@
     border-bottom: 1px solid $white-color;
     background-color: rgba(0, 0, 0, 0.3);
   }
-}
-.nav-link {
-  @extend .text;
-  border-right: 1px solid $main-color;
 }
 .text {
   color: $main-color;
