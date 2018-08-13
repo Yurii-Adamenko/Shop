@@ -1,0 +1,41 @@
+@media (max-width: 1199px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .main-content-item__text {
+    &__price {
+      font-size: 36px;
+    }
+    &__btn-details, &__btn-add {
+      font-size: 1rem;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .sidebar-wrapper {
+    border-top: 1px solid $white-color;
+    border-right: 0;
+    background-color: transparent;
+  }
+}
+@media (max-width: 991px) {
+  .nav-link {
+    border: 0;
+  }
+  .nav-item:first-child {
+    border: 0;
+  }
+  .header-form-search {
+    display: inline-flex;
+    margin-left: 0;
+    width: calc(100% - 100px);
+    & .form-control {
+      width: calc(100% - 40px);
+    }
+  }
+  .btn-shop {
+    margin-bottom: 6px;
+  }
+}
+

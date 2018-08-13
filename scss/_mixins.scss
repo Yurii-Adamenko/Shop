@@ -1,0 +1,10 @@
+@mixin main-decor {
+  border-color: $white-color;
+  border-radius: 0;
+  background-color: $main-color;
+  color: $white-color;
+}
+@mixin text {
+  color: $main-color;
+  font-size: 21px;
+}

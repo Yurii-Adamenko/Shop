@@ -1,4 +1,6 @@
 .breadcrumb {
+  margin-bottom: 5px;
+  padding-left: 0;
   background-color: transparent;
   &-item {
     font-size: 14px;
@@ -18,7 +20,7 @@
 }
 .dropdown-filter {
   & .dropdown-toggle {
-    @extend .main-decor;
+    @include main-decor;
     width: 100%;
     box-shadow: none;
     text-align: left;
@@ -48,13 +50,13 @@
   }
 }
 .show>.btn-secondary.dropdown-toggle {
-  @extend .main-decor;
+  @include main-decor;
   &:focus {
     box-shadow: none;
   }
 }
 .main-content {
-  margin-top: 30px;
+  margin-top: 43px;
   &-item {
     margin-bottom: 30px;
     &-wrapper {
@@ -115,7 +117,7 @@
         font-size: 48px;
       }
       &__btn-details, &__btn-add {
-        @extend .main-decor;
+        @include main-decor;
         margin: 7.5px;
         width: calc(100% - 15px);
         text-transform: uppercase;
@@ -141,21 +143,4 @@
       line-height: 40px;
     }
   } 
-}
-@media (max-width: 1199px) {
-  .main-content-item__text {
-    &__price {
-      font-size: 36px;
-    }
-    &__btn-details, &__btn-add {
-      font-size: 1rem;
-    }
-  }
-}
-@media (max-width: 992px) {
-  .sidebar-wrapper {
-    border-top: 1px solid $white-color;
-    border-right: 0;
-    background-color: transparent;
-  }
 }
