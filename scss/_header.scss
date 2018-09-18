@@ -81,6 +81,7 @@
   }
 }
 .btn-shop {
+  position: relative;
   padding: 0;
   width: 40px;
   height: 40px;
@@ -94,6 +95,24 @@
     border-color: $white-color;
     background-color: $main-color;
     color: $white-color;
+    .btn-shop-counter {
+      background-color: $white-color;
+      color: $main-color;
+    }
+  }
+  &-counter {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    display: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: $main-color;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+    color: $white-color;
+    font-size: 14px;
+    transition: background-color 0.5s;
   }
 }
 .carousel-caption h3 {
